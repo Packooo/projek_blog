@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <title>Wijayanto Agung Wibowo</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
 
 </head>
 
@@ -13,40 +14,62 @@
     <header>
         <!--- navigation --->
         <nav>
-            <div class="logo">
-                <!--- logo --->
-                <a href="index.html" class="logo">
-                    <p>Web Portofolio</p>
+            <div class="wrapper">
+                <div class="logo">
+                    <!--- logo --->
+                    <a href="index.html" class="logo">
+                        <p>Web Portofolio</p>
+                    </a>
+                </div>
+                <a href="#" class="tombol-menu">
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                    <span class="garis"></span>
                 </a>
-            </div>
-            <!--- menu --->
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+                <!--- menu --->
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
         </nav>
     </header>
 
     <main>
         <div>
             <h1 style="text-align:center;">Selamat Datang Di Web Wijayanto</h1>
-            <p>Ini adalah halaman utama dari website Wijayanto</p>
             <hr/>
         </div>
     </main>
 
-    <footer>
-        <div class="content">
-            <p>Silahkan Kunjungi Media Sosial Saya.</p>
-        </div>
-        <div>
-            <a href=”twitter.com/author”>Twitter</a>
-            <a href=”facebook.com/author”>Facebook</a>
-            <a href=”instagram.com/author”>Instagram</a>
-        </div>
-    </footer>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg&ga=GA1.2.1769275626.1605867161"
+            />
+            <div class="kolom">
+                <p class="deskripsi">Belajar Programming Bersama Wijay</p>
+                <h2>Tetap Pintar, Tetap Semangat</h2>
+                <p>Ayo ikuti belajar bersama Wijay. pembelajaran yang efektif dan bisa diandalkan.</br>
+                    Tersedia Course untuk anak SD hingga SMA
+                </p>
+                <p><a href="" class="tbl-pink">Unduh Brosur</a></p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="content">
+                <p>Silahkan Kunjungi Media Sosial Saya.</p>
+            </div>
+            <div>
+                <a href=”twitter.com/author”>Twitter</a>
+                <a href=”facebook.com/author”>Facebook</a>
+                <a href=”instagram.com/author”>Instagram</a>
+            </div>
+        </footer>
 
 </body>
 

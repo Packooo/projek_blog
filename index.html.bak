@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Wijayanto Agung Wibowo</title>
+    <link rel="stylesheet" href="./style.css" />
+	<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <!--- navigation --->
+        <nav>
+		<div class="wrapper">
+            <div class="logo">
+                <!--- logo --->
+                <a href="index.html" class="logo">
+                    <p>Web Portofolio</p>
+                </a>
+            </div>
+            <!--- menu --->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+			<div class="wrapper">
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1 style="text-align:center;">Selamat Datang Di Web Wijayanto</h1>
+            <p>Ini adalah halaman utama dari website Wijayanto</p>
+            <hr/>
+        </div>
+    </main>
+
+    <footer>
+        <div class="content">
+            <p>Silahkan Kunjungi Media Sosial Saya.</p>
+        </div>
+        <div>
+            <a href=”twitter.com/author”>Twitter</a>
+            <a href=”facebook.com/author”>Facebook</a>
+            <a href=”instagram.com/author”>Instagram</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
